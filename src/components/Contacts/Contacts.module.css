@@ -1,0 +1,27 @@
+.cont_list {
+  width: 440px;
+  list-style: none;
+  font-size: 20px;
+  padding-left: 0;
+}
+.cont_item {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  height: 46px;
+}
+.cont_btn {
+  height: fit-content;
+  font-size: 16px;
+  padding: 6px 12px;
+  border-radius: 6px;
+  background-color: #aee8ee;
+  cursor: pointer;
+  box-shadow: -2px 16px 37px -12px #000000bf;
+  transition: color 250ms linear, background-color 250ms linear;
+}
+.cont_btn:is(:hover, :focus) {
+  color: #f0ffff;
+  background-color: #3b3bbe;
+}

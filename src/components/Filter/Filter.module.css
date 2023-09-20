@@ -1,0 +1,15 @@
+.filter_form {
+  display: flex;
+  flex-direction: column;
+}
+.filter_label {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 260px;
+}
+.filter_input {
+  height: 24px;
+  font-size: 16px;
+}
